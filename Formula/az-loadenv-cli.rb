@@ -2,25 +2,25 @@ class AzLoadenvCli < Formula
   desc "Export Azure Web App settings to a .env file with automatic Key Vault secret resolution"
   homepage "https://curiousdev.github.io/az-loadenv/"
   license "MIT"
-  version "1.0.1"
+  version "1.0.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/curiousdev/az-loadenv/releases/download/v1.0.1/az-loadenv-darwin-arm64.tar.gz"
-      sha256 "13a373098831aa423deb63f1fa102527f7ed991e3b70e8f17f3ee6b955a1327c"
+      url "https://github.com/curiousdev/az-loadenv/releases/download/v1.0.2/az-loadenv-darwin-arm64.tar.gz"
+      sha256 "087215cc03f23150b8ce593d59d4c752b4807138d69499a8b79d2e2379774552"
     else
-      url "https://github.com/curiousdev/az-loadenv/releases/download/v1.0.1/az-loadenv-darwin-amd64.tar.gz"
-      sha256 "f78653b1c518c40c1d2fe8e0ec50f7a572fe656e39dfa6ac48bd0ca1d49959dc"
+      url "https://github.com/curiousdev/az-loadenv/releases/download/v1.0.2/az-loadenv-darwin-amd64.tar.gz"
+      sha256 "2413f8616680487ea422168e6f79d2731d5bd024cd7805f68f21605efbed8071"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/curiousdev/az-loadenv/releases/download/v1.0.1/az-loadenv-linux-arm64.tar.gz"
-      sha256 "307f179e4f348beec0e0872f20a967eb55ace3a3e124ab3a8d8b57bb36e8f57b"
+      url "https://github.com/curiousdev/az-loadenv/releases/download/v1.0.2/az-loadenv-linux-arm64.tar.gz"
+      sha256 "c4f798cceffb90512e938dc9ed1cbbd1498114f000cf673af796b7bc59102134"
     else
-      url "https://github.com/curiousdev/az-loadenv/releases/download/v1.0.1/az-loadenv-linux-amd64.tar.gz"
-      sha256 "cc8fdeb53b0bc0906d7f1a4f250d91ea6be27eeb4b9f37318c91f86648c633f0"
+      url "https://github.com/curiousdev/az-loadenv/releases/download/v1.0.2/az-loadenv-linux-amd64.tar.gz"
+      sha256 "a554f1e96c2078acfbeed0d3953d60ef57a7d657627c13096fa65964b7820a0f"
     end
   end
 
